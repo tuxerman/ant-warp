@@ -123,8 +123,7 @@ class Ant:
 		self.odo=self.odo+1
 		#print self.pos - probe point
 
-
-
+################### MAIN CODE BEGINS #################################
 
 getglobals() 
 a=list()
@@ -160,6 +159,3 @@ while done==False:
 
 pygame.quit() 
 
-
-if __name__ == '__main__':
-   main()
